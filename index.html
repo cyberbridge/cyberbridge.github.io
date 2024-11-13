@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Web解析に関する情報を発信するブログ">
+    <title>Web解析ブログ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <header>
+        <h1>Web解析ブログ</h1>
+        <p>データドリブンな意思決定を支援するためのヒントや手法を紹介</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>このブログはWeb解析に関する知識と技術をシェアするために作成されました。GA4やSEO、A/Bテストの導入方法など、実務に役立つ情報を発信しています。</p>
+    </section>
+
+    <section id="posts">
+        <h2>最新記事</h2>
+        <article class="post">
+            <h3>GA4でのユーザーデータの分析方法</h3>
+            <p>Googleアナリティクスの新バージョン、GA4を活用してユーザー行動を理解するための基本的な手法を紹介します。</p>
+            <a href="#">続きを読む</a>
+        </article>
+        <article class="post">
+            <h3>SEOに強いサイト構築のポイント</h3>
+            <p>検索エンジン最適化（SEO）のために意識すべき基本的なポイントと最新のトレンドについて解説します。</p>
+            <a href="#">続きを読む</a>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>ご質問やご意見がございましたら、下記のフォームからご連絡ください。</p>
+        <form action="#" method="post">
+            <label for="name">名前</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Web解析ブログ</p>
+    </footer>
 </body>
 </html>
